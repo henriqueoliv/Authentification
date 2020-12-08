@@ -33,7 +33,7 @@ userSchema.plugin(encrypt, {secret: process.env.SECRET, encryptedFields:["passwo
 User = new mongoose.model("User", userSchema);
 
 
-
+//teste git 
 app.get("/", function(req, res) {
   res.render("home");
 });
